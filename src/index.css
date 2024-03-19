@@ -9,16 +9,8 @@
     align-items: center;
   }
 
-  .layout-mobile {
-    @apply flex flex-col mx-auto p-5;
-  }
-
-  .layout-tablet {
-    @apply flex flex-col mx-auto p-10;
-  }
-
-  .layout-desktop {
-    @apply flex flex-col mx-auto p-20;
+  .layout {
+    @apply w-screen mx-auto px-5 md:px-10 lg:px-20;
   }
 }
 
